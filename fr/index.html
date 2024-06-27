@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta property="og:title" content="Wahiba BOUZYAN | Master's Student in AI">
+    <meta property="og:type" content="Portfolio">
+    <meta property="og:image" content="../assets/img/20231127_200550.png">
+    <meta property=" og:url" content="https://Wahiba275.github.io">
+    <meta property="og:descreption"
+        content="Master's student in Artificial Intelligence and Distributed Systems.">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Wahiba BOUZYAN ">
+    <title>Wahiba BOUZYAN </title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/img/avatar1.webp" type="image/gif" sizes="16x16">
+</head>
+
+<body class=".contact__input">
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div class="logo-div">
+                <img src="../assets/img/avatar1.webp" class="avatar" alt="avatar of me"><a href="#"
+                    class="nav__logo">Wahiba BOUZYAN</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Accueil</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">À propos</a></li>
+                    <!-- <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li> -->
+                    <li class="nav__item"><a href="#work" class="nav__link">Projets</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+            <div class="theme-switcher-container">
+                <span>Thème</span>
+                <div class="theme-switcher dark" id="theme-toggle" data-mode="dark" onclick="toggleTheme(this)">
+                    <div class="switcher-btn">
+                        <i class="fa-solid fa-sun hidden"></i>
+                        <i class="fa-solid fa-moon"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="languages">
+                <span>FR</span>
+                <a href="../index.html">ENG</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Salut,<br>C'est <span class="home__title-color">Wahiba</span></h1>
+
+                <a href="#contact" class="button">Contact</a>
+                <a href="../assets/CV/CV - Wahiba BOUZYAN - FR.pdf" target="_blank" class="button-alt">Télécharger le CV <i
+                        class="fa-solid fa-file-arrow-down"></i></a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/bouzyan-wahiba-713b071a6/" target="_blank" class="home__social-icon"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Wahiba275" target="_blank" class="home__social-icon"><i
+                    class='bx bxl-github'></i></a>
+            <a href="https://api.whatsapp.com/send/?phone=212694379017&text=Hey!" target="_blank"
+                class="home__social-icon"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://www.instagram.com/wahiba_bouzyan/" target="_blank"
+                class="home__social-icon"><i class="bx bxl-instagram"></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" 
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="60" y="0" width="30%" href="../assets/img/imggg-removebg-preview.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">À propos</h2>
+
+            <div class="bd-grid">
+                <div>
+                    <h2 class="about__subtitle">Je suis Wahiba BOUZYAN    </h2>
+                    <p class="about__text">
+                        Je suis Wahiba BOUZYAN, une scientifique des données dédiée avec un master en Intelligence Artificielle et Systèmes Distribués. J'ai une expérience pratique en apprentissage automatique et en IA, ayant travaillé sur des projets chez Finéa-Group CDG et SEKERA. Mes compétences incluent l'apprentissage profond, le traitement automatique des langues et l'analyse de données. Parlant couramment l'arabe, le tamazight, le français et l'anglais, j'apporte une approche diversifiée et adaptable à mon travail. Pendant mon temps libre, j'apprécie le dessin artistique, les jeux de société et la cuisine créative.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+  <!--===== TRAVAIL =====-->
+<section class="work section" id="work">
+    <h2 class="section-title">Projets</h2>
+
+    <div class="work__container bd-grid">
+        <div class="project-card">
+            <a href="https://github.com/Wahiba275/Risk_Assessment_Chatbot" target="_blank">
+                <div class="img-container">
+                    <img src="../assets/img/risk.PNG" alt="image">
+
+                    <div class="modal">
+                        <button class="second-btn">Voir le code</button>
+                    </div>
+                </div>
+            </a>
+            <div class="card-body">
+                <h3>Chatbot d'évaluation des risques</h3>
+                <div class="badges">
+                    <span>Python</span> <span>Langchain</span> <span>Openai</span> <span>GPT-3</span>
+                </div>
+                <p>
+                    Conception et mise en œuvre d'un chatbot intelligent pour l'évaluation des risques, intégrant OPENAI GPT-3 et LangChain.
+                </p>
+                <div class="card-footer">
+                    <a href="https://github.com/Wahiba275/Risk_Assessment_Chatbot" target="_blank"><button
+                            class="second-btn">Voir le code</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="https://github.com/Wahiba275/Sentiment-Analysis-of-reviews" target="_blank">
+                <div class="img-container">
+                    <img src="../assets/img/sentiment1.png" alt="image">
+                    <div class="modal">
+                        <button class="second-btn">Voir le code</button>
+                    </div>
+                </div>
+            </a>
+            <div class="card-body">
+                <h3>Analyse des sentiments des avis</h3>
+                <div class="badges">
+                    <span>Python</span> <span>NLP</span>
+                </div>
+                <p>Le projet vise à développer un outil d'analyse des sentiments capable d'analyser et de catégoriser le sentiment exprimé dans les avis textuels.
+                </p>
+                <div class="card-footer">
+                    <a href="https://github.com/Wahiba275/Sentiment-Analysis-of-reviews" target="_blank"><button
+                            class="second-btn">Voir le code</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="https://github.com/Wahiba275/Recognition_of_handwritten_digits" target="_blank">
+                <div class="img-container">
+                    <img src="../assets/img/hand.PNG" alt="image">
+                    <div class="modal">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                </div>
+            </a>
+            <div class="card-body">
+                <h3>Reconnaissance des chiffres écrits à la main</h3>
+                <div class="badges">
+                    <span>Python</span><span>Keras</span><span>TensorFlow</span><span>Neural Network</span>
+                </div>
+                <p>
+                    Ce projet se concentre sur le développement d'un système basé sur les réseaux neuronaux capable de reconnaître les chiffres écrits à la main. La reconnaissance de chiffres manuscrits est un problème fondamental dans le domaine du traitement d'image et de la reconnaissance de motifs.
+                </p>
+                <div class="card-footer">
+                    <a href="https://github.com/Wahiba275/Recognition_of_handwritten_digits" target="_blank"><button
+                            class="second-btn">Voir le code</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="https://github.com/Wahiba275/Extract_text_from_YOUTUBE_using_LangChain" target="_blank">
+                <div class="img-container">
+                    <img src="../assets/img/youtube.PNG" alt="image">
+                    <div class="modal">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                </div>
+            </a>
+            <div class="card-body">
+                <h3>Extraction de texte à partir de YOUTUBE</h3>
+                <div class="badges">
+                    <span>Python</span><span>Openai</span><span>LangChain</span><span>GPT-3</span>
+                </div>
+                <p>
+                    Ce projet se concentre sur l'utilisation de LangChain de OpenAI avec GPT-3 pour extraire le texte des vidéos YouTube. En convertissant le contenu parlé en texte et en utilisant un traitement avancé du langage naturel, il permet la résumé efficace, l'extraction de mots-clés et l'identification de sujets à partir de transcriptions vidéo, améliorant les capacités d'accessibilité et d'analyse de contenu.
+                </p>
+                <div class="card-footer">
+                    <a href="https://github.com/Wahiba275/Extract_text_from_YOUTUBE_using_LangChain" target="_blank"><button
+                            class="second-btn">Voir le code</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="https://github.com/Wahiba275/reservation-application" target="_blank">
+                <div class="img-container">
+                    <img src="../assets/img/reservation.PNG" alt="image">
+                    <div class="modal">
+                        <button class="second-btn">Voir le code</button>
+                    </div>
+                </div>
+            </a>
+            <div class="card-body">
+                <h3>Application de réservation</h3>
+                <div class="badges">
+                    <span>Java</span><span>Spring</span>
+                            <span>gRPC</span><span>SOAP</span><span>Maven</span>
+                </div>
+                <p>
+                    Fournir une application multiservice robuste utilisant l'architecture de microservices, qui comprend la gestion de configuration, le routage de passerelle API, la gestion des réservations et les services de gestion des ressources, ainsi qu'une interface utilisateur conviviale pour la gestion des réservations.
+                </p>
+                <div class="card-footer">
+                    <a href="https://github.com/Wahiba275/reservation-application" target="_blank"><button
+                            class="second-btn">Voir le code</button></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <a href="https://github.com/Wahiba275/manage-and-automate-the-process-of-handling-speed-violat-on-incidents-detected-by-automatic-radars" target="_blank">
+                <div class="img-container">
+                    <img src="../assets/img/speedV.PNG" alt="image">
+                    <div class="modal">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                </div>
+            </a>
+            <div class="card-body">
+                <h3>Gestion et automatisation du traitement des infractions de vitesse</h3>
+                <div class="badges">
+                    <span>Java</span><span>Spring</span>
+                    <span>gRPC</span><span>SOAP</span><span>Maven</span>
+                    <span>Feign</span>
+                </div>
+                <p>
+                    Le rôle de ce projet est de gérer et automatiser le processus de traitement des infractions de vitesse à l'aide de divers microservices pour la détection par radar, l'enregistrement des véhicules, le traitement des infractions et le routage des services.
+                </p>
+                <div class="card-footer">
+                    <a href="https://github.com/Wahiba275/manage-and-automate-the-process-of-handling-speed-violat-on-incidents-detected-by-automatic-radars" target="_blank"><button
+                            class="second-btn">Voir le code</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="https://formsubmit.co/eb74f1904f59e9f7d394121875381439" method="POST">
+                    <input type="text" placeholder="Nom" name="name" class="contact__input">
+                    <input type="mail" placeholder="Email" name="email" class="contact__input">
+                    <textarea placeholder="Votre message..." cols="0" rows="10" class="contact__input"
+                        name="userMsg" id="userMsg" cols="30" rows="10" spellcheck="false"
+                        data-ms-editor="true"></textarea>
+                    <input type="hidden" name="_next" value="https://othmansamih.github.io/thanks">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <input type="submit" value="Envoyer" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Wahiba BOUZYAN</p>
+        <div class="footer__social">
+            <a href="https://www.linkedin.com/in/bouzyan-wahiba-713b071a6/ " target="_blank" class="footer__icon"><i
+                class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/Wahiba275" target="_blank" class="footer__icon"><i
+                class='bx bxl-github'></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=212682284369&text=Hey!" target="_blank" class="footer__icon"><i
+                    class='bx bxl-whatsapp'></i></a>
+        <a href="https://www.instagram.com/wahiba_bouzyan/" target="_blank" class="footer__icon"><i
+                        class='bx bxl-instagram'></i></a>
+        </div>
+        <p class="footer__copy">&#169; wahibabouzyan. 2024</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
