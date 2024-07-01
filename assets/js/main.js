@@ -81,7 +81,6 @@ function toggleTheme(el) {
     el.classList.contains("dark") ? "dark" : "light"
   );
 }
-
 const theme = localStorage.getItem("theme");
 const el = document.getElementById("theme-toggle");
 if (theme != null && theme !== el.dataset.mode) toggleTheme(el);
